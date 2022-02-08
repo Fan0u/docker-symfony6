@@ -36,7 +36,7 @@ Je m'y prends donc ainsi :
 - `git clone git@github.com:Fan0u/docker-symfony6.git`
 - `mv docker-symfony6 nom_de_mon_dossier`
 - `cd nom_de_mon_dossier` 
-- `mkdir SYMFONY_FOLDER_NAME` ⚠ Ce dossier doit porter le même nom que celui défini dans `SYMFONY_FOLDER_NAME` du fichier `.env`
+- `mkdir SYMFONY_FOLDER_NAME` ⚠ Ce dossier doit porter le même nom que celui défini dans `SYMFONY_FOLDER_NAME` du fichier `.env` 
 - `docker-compose up -d` ... et j'attends que la machine fasse son job :)
 - `docker ps` pour avoir les ID de nos containers 
 - `docker exec -it ID_DU_CONTAINER_DONT_LE_NOM_EST_php_apache_nom_du_projet bash` (n'oubliez pas le bash)
