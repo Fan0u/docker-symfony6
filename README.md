@@ -45,4 +45,3 @@ Je m'y prends donc ainsi :
 Puis dans le bash de notre docker container, je lance la commande pour créer un projet symfony
 - `symfony console new .`
 
-edit
